@@ -34,7 +34,7 @@ Welcome to the Car Rental Management System backend repository! This repository 
 - mvn spring-boot:run
 
 5. **Access the API endpoints:**
-- http://localhost:8080/api/cars
+- http://localhost:8080/api/users
 
 
 
