@@ -47,7 +47,7 @@ public class UsersController {
         User user =  userService.deleteUser(id);
         if(user != null)
         {
-            return new ResponseEntity<>("User deleted with given details:"+user,HttpStatus.OK);
+            return new ResponseEntity<>("User deleted with given details Name:"+user.getUserName()+" Email:"+ user.getEmail(),HttpStatus.OK);
         }
         else
         {
